@@ -1,0 +1,6 @@
+/* line 1, ../sass/style.scss */
+.bgdiv {
+  background-image: url("img/intro_bg.jpg");
+  width: 100%;
+  height: auto;
+}
