@@ -1,0 +1,42 @@
+<div class="container-fluid text-center">
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2">
+						<div id="carousel_fade_intro" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="item">
+										<h1>Multi-purpose template</h1>
+								</div>
+								<div class="item">
+										<h1>designed for portfolio, agency</h1>
+								</div>
+								<div class="item">
+										<h1>or landing page.</h1>
+								</div>
+								<div class="item">
+										<h1>It's easy to customize</h1>
+								</div>
+								<div class="item">
+										<h1>to fit any brand.</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<div class="container">
+				<div class="row divide">
+					<div class="col-sm-3">
+						<div class="thumbnail">
+							<div class="myway-icon-services">
+								<svg viewBox="0 0 32 32">
+									<use xlink:href="#settings-toolkit"></use>
+								</svg>
+							</div>
+							<div class="caption">
+								<h3>Fully Responsive</h3>
+								<h4>Built with Bootstrap 3</h4>
+								<p><small>Myway easily and efficiently scales your project with one code base, from phones to tablets to desktops.</small></p>
+							</div>
+						</div>
+					</div>
+				</div>

@@ -1,5 +1,158 @@
-.bgdiv{
-	background-image: url('img/intro_bg.jpg');
-	width: 100%;
-	height: auto;
+	@import "fonts";
+
+	$navcolor: #cfd1d4;
+	$black: #25272B;
+	$white: #fff;
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+/* ==== Navigation ==== */
+
+.navbar-default{
+	background-color: $white;
+	border-color: transparent;
+	padding: 5px 0px;
+	z-index: 5;
+}
+
+@media (max-width: 767px){
+	.navbar-default {
+		background-color: $white !important;
+	}
+	.navbar a{
+		color: $black !important;
+	}
+}
+
+.navbar-default .navbar-collapse{
+	border-color: #f8f8f8;
+}
+
+.navbar-fixed-top{
+	position: fixed;
+}
+
+.navbar-brand{
+	line-height: 0;
+}
+
+.nav li:first-child{
+	display: none;
+}
+
+.nav a{
+	color: $black;
+}
+
+.nav a:hover{
+	color: $navcolor !important;
+}
+
+.nav .active a {
+	color: $navcolor !important;
+}
+
+.navbar a{
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+}
+
+.navbar a, .navbar .active a:hover, .navbar .active a:focus{
+	background-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+}
+
+/* ==== Typography ==== */
+
+p {
+	margin: 20px 0 0 0;
+}
+
+h1 {
+	font-size: 56px;
+	font-weight: 300;
+	margin: 20px 0 0 0;
+	line-height: 1;
+	letter-spacing: -2px;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 42px;
+		letter-spacing: -2px;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 28px;
+		letter-spacing: -1px;
+	}
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+a {
+	color: $black;
+	transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+}
+
+a:hover {
+	color: #949598;
+	text-decoration: none;
+	transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+}
+
+textarea:focus, input:focus, a:focus, *:focus {
+	outline: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0;
+}
+
+
+#intro{
+	min-height: 445px;
+	background: #008cba url("../img/intro_bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	opacity: 0.5;
+}
+
+#services{
+	min-width: 1170px;
+	min-height: 500px;
+	background: $white;
+	position: relative;
+	display: block;
 }
